@@ -1,0 +1,16 @@
+class OnetoN{
+	public static void Main(){
+		int n = int.Parse(System.Console.ReadLine());
+		int num = 1;
+		int sum = 1;
+		System.Console.WriteLine("The sum 1");
+		while(num<n){
+			num++;
+			sum+=num;
+			System.Console.WriteLine("Sum: " + sum);
+		}
+
+
+	}
+
+}
